@@ -1,0 +1,277 @@
+html,
+body {
+  background-color: #008080;
+  /* background-color: black; */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#pageContainer {
+  /* background: url(assets/image/xpWallpaper.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Pixelated MS Sans Serif;
+}
+
+#bodyContainer {
+  width: 98vw;
+  height: 96vh;
+  padding-top: 1vh;
+  display: grid;
+  grid-template-columns: repeat(6, 7vw);
+  grid-template-rows: repeat(5, 18vh);
+  grid-auto-flow: column;
+}
+
+
+.iconDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5vw;
+  height: 10vh;
+}
+
+.iconDiv img {
+  width: 80%;
+}
+
+.iconDiv p {
+  width: 100%;
+  color: white;
+  /* text-shadow: black 0.1vw 0 0.2vw; */
+  font-size: 0.9vw;
+  text-align: center;
+}
+
+.iconDiv:hover {
+  cursor: pointer;
+}
+
+.contentWindow {
+  position: absolute;
+  top: 4vh;
+  left: 10vw;
+  width: 80vw;
+  height: 88vh;
+  font-size: 200%;
+
+}
+
+.contentWindowBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentWindowContainer {
+  width: 75vw;
+  height: 79vh;
+  overflow-y: scroll;
+  background-color: white;
+  padding: 1vw;
+  border: 1px solid grey;
+}
+
+.contentWindowContainer h1 {
+  font-size: 3vw;
+}
+
+.contentWindowContainer p {
+  font-size: 1.5vw;
+}
+
+
+#wXP_logo {
+  width: 20vw;
+  margin-bottom: 10vh;
+}
+
+#wXP_progress {
+  width: 30vw;
+  height: 2vh;
+}
+
+#loadingDiv span {
+  font-size: 3vw;
+  font-family: Pixelated MS Sans Serif;
+  color: white;
+}
+
+.demoVideo {
+  width: 60%;
+}
+
+@media all and (max-width : 1500px) {
+  .iconDiv {
+    width: 6vw;
+    height: 12vh;
+  }
+
+  .iconDiv p {
+    font-size: 1vw;
+  }
+
+  #bodyContainer {
+    grid-template-columns: repeat(6, 9vw);
+    grid-template-rows: repeat(5, 14vh);
+  }
+
+  .contentWindowContainer h1 {
+    font-size: 4vw;
+  }
+
+  #wXP_logo {
+    width: 23vw;
+  }
+
+  #wXP_progress {
+    width: 35vw;
+    height: 2vh;
+  }
+
+  .demoVideo {
+    width: 70%;
+  }
+
+}
+
+@media all and (max-width : 1024px) {
+  .iconDiv {
+    width: 8vw;
+    height: 14vh;
+  }
+
+  .iconDiv p {
+    font-size: 1.5vw;
+  }
+
+  #bodyContainer {
+    grid-template-columns: repeat(6, 11vw);
+    grid-template-rows: repeat(5, 15vh);
+  }
+
+  .contentWindowContainer h1 {
+    font-size: 5vw;
+  }
+
+  .contentWindowContainer p {
+    font-size: 2vw;
+  }
+
+  #wXP_logo {
+    width: 30vw;
+  }
+
+  #wXP_progress {
+    width: 40vw;
+    height: 2vh;
+  }
+
+  #loadingDiv span {
+    font-size: 5vw;
+  }
+
+  .demoVideo {
+    width: 80%;
+  }
+
+}
+
+@media all and (max-width : 700px) {
+  .iconDiv {
+    width: 13vw;
+    height: 18vh;
+  }
+
+  .iconDiv p {
+    font-size: 2vw;
+    /* text-shadow: black 0.1vw 0.2vw 0.2vw; */
+
+  }
+
+  #bodyContainer {
+    grid-template-columns: repeat(6, 15vw);
+    grid-template-rows: repeat(5, 17vh);
+  }
+
+  .contentWindowContainer h1 {
+    font-size: 6vw;
+  }
+
+  .contentWindowContainer p {
+    font-size: 2.5vw;
+  }
+
+
+
+  #wXP_logo {
+    width: 35vw;
+  }
+
+  #wXP_progress {
+    width: 45vw;
+    height: 2vh;
+  }
+
+  #loadingDiv span {
+    font-size: 7vw;
+  }
+
+  .demoVideo {
+    width: 90%;
+  }
+
+}
+
+@media all and (max-width : 500px) {
+  .iconDiv {
+    width: 18vw;
+    height: 20vh;
+  }
+
+  .iconDiv p {
+    font-size: 4vw;
+  }
+
+  #bodyContainer {
+    grid-template-columns: repeat(6, 25vw);
+    grid-template-rows: repeat(3, 20vh);
+  }
+
+  .contentWindowContainer h1 {
+    font-size: 7vw;
+  }
+
+  .contentWindowContainer p {
+    font-size: 4vw;
+  }
+
+
+
+  .contentWindow {
+    width: 90vw;
+    left: 5vw;
+  }
+
+  .contentWindowContainer {
+    width: 83vw;
+  }
+
+  #wXP_logo {
+    width: 50vw;
+  }
+
+  #wXP_progress {
+    width: 50vw;
+    height: 2vh;
+  }
+
+  .demoVideo {
+    width: 95%;
+  }
+
+}
