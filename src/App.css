@@ -9,6 +9,12 @@ body {
   overflow-y: hidden;
 }
 
+.codeContainer {
+  background-color: #151B23;
+  color: white;
+  padding: 2px;
+}
+
 #pageContainer {
   /* background: url(assets/image/xpWallpaper.jpg); */
   background-repeat: no-repeat;

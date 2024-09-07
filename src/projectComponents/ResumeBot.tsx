@@ -40,7 +40,7 @@ function ResumeBot() {
 
 
                             <h1>How does it work ?</h1>
-                            <p>The bot is written in TypeScript using the Grammy framework (grammy.dev), and it uses the docxtemplater package to edit .docx files.
+                            <p>The bot is written in TypeScript using the Grammy framework (<a target="_blank" href="https://grammy.dev">https://grammy.dev</a>), and it uses the docxtemplater package to edit .docx files.
                                 The conversations plugins allows to easily keep track of the data until all questions are answered
                             </p>
 

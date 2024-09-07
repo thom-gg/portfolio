@@ -9,6 +9,7 @@ import Swap from './projectComponents/Swap.tsx';
 import Vote from './projectComponents/Vote.tsx';
 import Infos from './projectComponents/Infos.tsx';
 import ResumeBot from './projectComponents/ResumeBot.tsx';
+import TensorflowBenchmarkTool from './projectComponents/TensorflowBenchmarkTool.tsx';
 
 
 
@@ -79,6 +80,7 @@ function App() {
             <Vote />
             <Optokinetic />
             <ResumeBot />
+            <TensorflowBenchmarkTool />
 
 
 
