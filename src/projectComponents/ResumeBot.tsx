@@ -23,6 +23,7 @@ function ResumeBot() {
                     </div>
                     <div className="window-body contentWindowBody">
                         <div className="contentWindowContainer" >
+                            <a href="https://github.com/thom-gg/resume-generator-bot" target="_blank">https://github.com/thom-gg/resume-generator-bot</a>
                             <h1>Description</h1>
                             <p>This is a Telegram bot made to help you create a resume</p>
 

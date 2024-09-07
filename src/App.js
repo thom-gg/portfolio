@@ -10,6 +10,7 @@ import Vote from './projectComponents/Vote.tsx';
 import Infos from './projectComponents/Infos.tsx';
 import ResumeBot from './projectComponents/ResumeBot.tsx';
 import TensorflowBenchmarkTool from './projectComponents/TensorflowBenchmarkTool.tsx';
+import InvoiceCLITool from './projectComponents/InvoiceCLITool.tsx';
 
 
 
@@ -81,6 +82,7 @@ function App() {
             <Optokinetic />
             <ResumeBot />
             <TensorflowBenchmarkTool />
+            <InvoiceCLITool />
 
 
 

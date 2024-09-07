@@ -21,6 +21,7 @@ function TensorflowBenchmarkTool() {
                     </div>
                     <div className="window-body contentWindowBody">
                         <div className="contentWindowContainer" >
+                            <a target="_blank" href="https://github.com/thom-gg/benchmark-tensorflow">https://github.com/thom-gg/benchmark-tensorflow</a>
                             <h1>Description</h1>
                             <p>I wrote this little tool in Python when I was discovering TensorFlow, to try different configurations of Machine-learning models, to see what parameters can improve the most the accuracy of the model.
                                 I think playing with configurations can help getting a better understanding of these models.</p>
