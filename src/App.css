@@ -28,7 +28,7 @@ body {
   padding-top: 1vh;
   display: grid;
   grid-template-columns: repeat(6, 7vw);
-  grid-template-rows: repeat(5, 18vh);
+  grid-template-rows: repeat(4, 22vh);
   grid-auto-flow: column;
 }
 
@@ -123,7 +123,7 @@ body {
 
   #bodyContainer {
     grid-template-columns: repeat(6, 9vw);
-    grid-template-rows: repeat(5, 14vh);
+    grid-template-rows: repeat(4, 16vh);
   }
 
   .contentWindowContainer h1 {
@@ -157,7 +157,7 @@ body {
 
   #bodyContainer {
     grid-template-columns: repeat(6, 11vw);
-    grid-template-rows: repeat(5, 15vh);
+    grid-template-rows: repeat(4, 17vh);
   }
 
   .contentWindowContainer h1 {
@@ -201,7 +201,7 @@ body {
 
   #bodyContainer {
     grid-template-columns: repeat(6, 15vw);
-    grid-template-rows: repeat(5, 17vh);
+    grid-template-rows: repeat(4, 19vh);
   }
 
   .contentWindowContainer h1 {
