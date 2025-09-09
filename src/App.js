@@ -81,7 +81,7 @@ function App() {
             <Vote />
             <Optokinetic />
             <ResumeBot />
-            <TensorflowBenchmarkTool />
+            {/* <TensorflowBenchmarkTool /> */}
             <InvoiceCLITool />
             <TextEditor />
             <VirtualGreenScreen />
