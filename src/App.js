@@ -12,7 +12,7 @@ import ResumeBot from './projectComponents/ResumeBot.tsx';
 import TensorflowBenchmarkTool from './projectComponents/TensorflowBenchmarkTool.tsx';
 import InvoiceCLITool from './projectComponents/InvoiceCLITool.tsx';
 import TextEditor from './projectComponents/TextEditor.tsx';
-
+import VirtualGreenScreen from './projectComponents/VirtualGreenScreen.tsx';
 
 function App() {
 
@@ -84,7 +84,7 @@ function App() {
             <TensorflowBenchmarkTool />
             <InvoiceCLITool />
             <TextEditor />
-
+            <VirtualGreenScreen />
 
 
 
