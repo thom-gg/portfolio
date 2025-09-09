@@ -11,7 +11,7 @@ import Infos from './projectComponents/Infos.tsx';
 import ResumeBot from './projectComponents/ResumeBot.tsx';
 import TensorflowBenchmarkTool from './projectComponents/TensorflowBenchmarkTool.tsx';
 import InvoiceCLITool from './projectComponents/InvoiceCLITool.tsx';
-
+import TextEditor from './projectComponents/TextEditor.tsx';
 
 
 function App() {
@@ -83,6 +83,7 @@ function App() {
             <ResumeBot />
             <TensorflowBenchmarkTool />
             <InvoiceCLITool />
+            <TextEditor />
 
 
 
